@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"><![endif]-->
+
+<!-- CODE WITH NULL -->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <header>
+            <h2 class="logo">CodewithNull</h2>
+            <nav class="navigation" >
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
+                    <a href="#">About</a>     
+                    <a href="#">Services</a>  
+                    <button class="btnLogin-popup">Login</button>
+            </nav>
+        </header>
+
+        <!-- Login -->
+        <div class="wrapper">
+            <div class="form-box Login">
+                <h2>Login</h2>
+                <form action="">
+                    <div class="inputbox">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="show">
+                        <label><input type="Show password"></label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <p>Don't have an account? <a href="#">Sign Up</a></p>
+                </form>
+            </div>
+        </div>
+
+        <!-- Sign up -->
+        <div class="form-box register">
+            <h2>Sign up</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="show">
+                    <label><input type="checkbox">Confirm account?</label>
+                </div>  
+                <button type="submit" class="btn">Sign Up</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    
+        <script src="Script.js" async defer></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
